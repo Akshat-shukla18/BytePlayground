@@ -120,6 +120,7 @@ function paint() {
         paintCell(food.x, food.y, "#00ff9c");
     }
 }
+//The real function
 
 function paintCell(x, y, color = "red", size = cw) {
     ctx.fillStyle = color;
