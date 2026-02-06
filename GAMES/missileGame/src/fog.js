@@ -16,7 +16,7 @@ MG.fog = (function (){
 
     var mRootNode;
     var mVisibility = 1.0;
-
+//main
     return {
         init: function () {
             mRootNode = document.getElementById('fog');
@@ -64,6 +64,6 @@ MG.fog = (function (){
                 mRootNode.setAttribute('visibility', 'visible');
                 mRootNode.setAttribute('opacity', String((0.5 - 0.5*Math.cos(Math.PI*mVisibility))));
             }
-        }
+        }//end
     };
 }());
