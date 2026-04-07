@@ -8,8 +8,8 @@ CSS3: Styling, animations, responsive design, and visual effects
 JavaScript (ES6+): Game logic, event handling, DOM manipulation, and browser APIs
 Advanced Features
 SVG (Scalable Vector Graphics): Used in missileGame for 3D-like graphics and vector-based rendering
-Canvas API: 2D graphics rendering for snakeGame
-Audio API: Sound effects and background music integration
+Canvas API: 2D graphics rendering for snakeGame.
+Audio API: Sound effects and background music integration.
 Event Handling: Mouse, keyboard, and touch input management
 Animation & Timing: RequestAnimationFrame, setTimeout, and CSS transitions
 Game State Management: Pattern tracking, scoring systems, and level progression
@@ -41,5 +41,5 @@ Add new games following the established patterns
 Improve existing game mechanics or visuals
 Optimize performance and code quality
 Add new features or difficulty modes
-License
+License: 
 Individual games may have their own licenses. Check each game's directory for specific licensing information.
