@@ -5,7 +5,7 @@ Skill Set Used
 Core Technologies
 HTML5: Structure and semantic markup for game interfaces
 CSS3: Styling, animations, responsive design, and visual effects
-JavaScript (ES6+): Game logic, event handling, DOM manipulation, and browser APIs
+JavaScript (ES6+): Game logic, event handling, DOM manipulation, and browser APIs.
 Advanced Features
 SVG (Scalable Vector Graphics): Used in missileGame for 3D-like graphics and vector-based rendering
 Canvas API: 2D graphics rendering for snakeGame.
