@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spending Spree Simulator</title>
+    <link rel="stylesheet" href="sp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spending Simulator</h1>
+        <div class="money-display">
+            <h2>Remaining Money: $<span id="money">100000000000000</span></h2>
+        </div>
+        <div class="item-section" id="item-section">
+            <div class="item" id="item-0">
+                <img src='67 shelby gt500.jpeg' alt="Sports Car" class="item-image">
+                <h3>Item: Sports Car</h3>
+                <p>Price: $<span class="item-price">200000</span></p>
+                <label for="quantity-0">Quantity:</label>
+                <input type="number" id="quantity-0" min="0" value="0">
+                <button onclick="buyItem(0)">Buy</button>
+                <button id="next-arrow-0" onclick="goToNextItem(0)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-1" style="display: none;">
+                <img src='download.jpeg' alt="Luxury House" class="item-image">
+                <h3>Item: Luxury House</h3>
+                <p>Price: $<span class="item-price">5000000</span></p>
+                <label for="quantity-1">Quantity:</label>
+                <input type="number" id="quantity-1" min="0" value="0">
+                <button onclick="buyItem(1)">Buy</button>
+                <button id="next-arrow-1" onclick="goToNextItem(1)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-2" style="display: none;">
+                <img src='jet.jpeg' alt="Private Jet" class="item-image">
+                <h3>Item: Private Jet</h3>
+                <p>Price: $<span class="item-price">20000000</span></p>
+                <label for="quantity-2">Quantity:</label>
+                <input type="number" id="quantity-2" min="0" value="0">
+                <button onclick="buyItem(2)">Buy</button>
+                <button id="next-arrow-2" onclick="goToNextItem(2)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-3" style="display: none;">
+                <img src='download (1).jpeg' alt="Yacht" class="item-image">
+                <h3>Item: Yacht</h3>
+                <p>Price: $<span class="item-price">10000000</span></p>
+                <label for="quantity-3">Quantity:</label>
+                <input type="number" id="quantity-3" min="0" value="0">
+                <button onclick="buyItem(3)">Buy</button>
+                <button id="next-arrow-3" onclick="goToNextItem(3)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-4" style="display: none;">
+                <img src='gold.jpeg' alt="Gold" class="item-image">
+                <h3>Item: Gold </h3>
+                <p>Price: $<span class="item-price">1000000</span></p>
+                <label for="quantity-4">Quantity:</label>
+                <input type="number" id="quantity-4" min="0" value="0">
+                <button onclick="buyItem(4)">Buy</button>
+                <button id="next-arrow-4" onclick="goToNextItem(4)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-5" style="display: none;">
+                <img src='tank.jpeg' alt="tank" class="item-image">
+                <h3>Item: Tank</h3>
+                <p>Price: $<span class="item-price">4000000</span></p>
+                <label for="quantity-5">Quantity:</label>
+                <input type="number" id="quantity-5" min="0" value="0">
+                <button onclick="buyItem(5)">Buy</button>
+                <button id="next-arrow-5" onclick="goToNextItem(5)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-6" style="display: none;">
+                <img src='download (2).jpeg' alt="Helicopter" class="item-image">
+                <h3>Item: Helicopter</h3>
+                <p>Price: $<span class="item-price">10000000</span></p>
+                <label for="quantity-6">Quantity:</label>
+                <input type="number" id="quantity-6" min="0" value="0">
+                <button onclick="buyItem(6)">Buy</button>
+                <button id="next-arrow-6" onclick="goToNextItem(6)" style="display: none;">➡️ Next Item</button>
+            </div>
+            <div class="item" id="item-7" style="display: none;">
+                <img src='iphones.jpeg' alt="Iphones" class="item-image">
+                <h3>Item: Iphones</h3>
+                <p>Price: $<span class="item-price">100000</span></p>
+                <label for="quantity-7">Quantity:</label>
+                <input type="number" id="quantity-7" min="0" value="0">
+                <button onclick="buyItem(7)">Buy</button>
+                <button id="next-arrow-7" onclick="goToNextItem(7)" style="display: none;">➡️ Next Item</button>
+            </div>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+    <script src="t.js"></script>
+</body>
+</html>

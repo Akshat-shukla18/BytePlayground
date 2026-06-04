@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4232b7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #eef43d;
+    padding: 25px;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.money-display {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.item-section {
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item-image {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 60px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #256692;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button[id^="next-arrow"] {
+    background-color: #2ecc71; 
+}
+
+button[id^="next-arrow"]:hover {
+    background-color: #27ae60;
+}
+
+.message {
+    color: #181717;
+    font-weight: bold;
+    margin-top: 10px;
+}
