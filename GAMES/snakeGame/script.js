@@ -7,6 +7,7 @@ let paused = false;
 let foodImages = [];
 let currentFoodImage;
 let snakeHeadImage;
+//images could be easily changed to friends faces HAVE FUN!
 
 window.onload = function () {
     canvas = document.getElementById("defaultCanvas");
