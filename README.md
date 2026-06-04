@@ -28,6 +28,14 @@ Live :  https://akshat-shukla18.github.io/missileGame/.
 
 ---
 ### 💰 Spending Trillions
+
+
+
+<img width="1920" height="1008" alt="Screenshot 2025-05-08 141618" src="https://github.com/user-attachments/assets/07b32e24-4ef9-49ab-baff-2867866b821b" />
+
+
+
+
 An interactive simulation that allows users to visualize and spend an enormous virtual budget, helping understand the scale of large numbers and national-level expenditures.
 
 **Concepts Used**
