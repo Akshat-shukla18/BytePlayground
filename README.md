@@ -7,7 +7,7 @@ This repository contains a collection of interesting coding projects built for l
 The goal of this repository is to continuously expand with new ideas, games, simulations, and interactive experiences while exploring different programming concepts and development techniques.
 
 ---
-## 🚀 Current Projects
+## 🚀 Current Games:
 
 ### 🚀 Missile Game
 
